@@ -15,8 +15,8 @@ The Random Forest classifier is recommended for predicting income levels due to 
 ## Classification Algorithm - Results of Analysis
 The analysis using Random Forest, KNN, and Decision Tree algorithms yielded distinct insights:
 
-### Random Forest: Demonstrated an accuracy of approximately 85.7% with a high ROC-AUC score of 0.9065, indicating effective class separation and robustness against overfitting. It was particularly strong in predicting the majority class (income ≤ $50k), with higher precision for this class and a reasonable balance between precision and recall.
+## Random Forest: Demonstrated an accuracy of approximately 85.7% with a high ROC-AUC score of 0.9065, indicating effective class separation and robustness against overfitting. It was particularly strong in predicting the majority class (income ≤ $50k), with higher precision for this class and a reasonable balance between precision and recall.
 
-### KNN (k-Nearest Neighbors): Showed an accuracy of about 77.7%, with a fair ability to classify the minority class (income > $50k). However, it had a lower precision and recall for this class, indicating some challenges in accurately classifying higher income levels.
+## KNN (k-Nearest Neighbors): Showed an accuracy of about 77.7%, with a fair ability to classify the minority class (income > $50k). However, it had a lower precision and recall for this class, indicating some challenges in accurately classifying higher income levels.
 
-### Decision Tree: Achieved an accuracy of 80.44%, with moderate precision and a fair recall rate for the positive class (income > $50k). It showed a better performance in identifying the negative class (income ≤ $50k) compared to the positive class.
+## Decision Tree: Achieved an accuracy of 80.44%, with moderate precision and a fair recall rate for the positive class (income > $50k). It showed a better performance in identifying the negative class (income ≤ $50k) compared to the positive class.
